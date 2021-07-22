@@ -1,10 +1,10 @@
-const head = function(newArray){
-  if (newArray.length >= 1){
+const head = function(newArray) {
+  if (newArray.length >= 1) {
     return newArray[0];
   } else {
     return undefined;
   }
-}
+};
 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
