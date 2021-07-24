@@ -6,14 +6,14 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const eqArrays = function(firstArray, secondArray){
+const eqArrays = function(firstArray, secondArray) {
   let counter = 0;
-  for (let i = 0; i < firstArray.length; i++){
-    if (firstArray[i] === secondArray[i]){
+  for (let i = 0; i < firstArray.length; i++) {
+    if (firstArray[i] === secondArray[i]) {
       counter ++;
     }
   }
-  if (counter === firstArray.length){
+  if (counter === firstArray.length) {
     return true;
   } else {
     return false;
