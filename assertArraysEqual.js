@@ -5,7 +5,7 @@ const eqArrays = function(firstArray, secondArray) {
       counter ++;
     }
   }
-  if (counter === firstArray.length) {
+  if (counter === firstArray.length && counter === secondArray.length) {
     return true;
   } else {
     return false;
@@ -20,5 +20,5 @@ const assertArraysEqual = function(arrayOne, arrayTwo) {
   }
 };
 
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
+assertArraysEqual([1, 2, 3], [1, 2, 3, 4]);
 assertArraysEqual([1, 2, 3], [3, 2, 1]);
