@@ -13,7 +13,7 @@ const eqArrays = function(firstArray, secondArray) {
       counter ++;
     }
   }
-  if (counter === firstArray.length & counter === secondArray.length) {
+  if (counter === firstArray.length && counter === secondArray.length) {
     return true;
   } else {
     return false;
