@@ -20,10 +20,10 @@ const assertArraysEqual = function(firstArray, secondArray) {
   }
 };
 
-const middle = function(array){
+const middle = function(array) {
   let newArray = [];
   let index = 0;
-  if (array.length === 1 || array.length === 2){
+  if (array.length === 1 || array.length === 2) {
     return newArray;
   } else if (array.length % 2 === 0) {
     index = array.length / 2;
