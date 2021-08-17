@@ -5,7 +5,6 @@ const letterPositions = function(sentence) {
     if (sentence[i] !== " ") {
       //make sure that the [sentence[i] is add we are running through that array]
       if(results[sentence[i]]) {
-        results[sentence[i]] = [];
         results[sentence[i]].push(i);
       } else {
         results[sentence[i]] = [];
@@ -38,5 +37,5 @@ const assertArraysEqual = function(arrayOne, arrayTwo) {
   }
 };
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+assertArraysEqual(letterPositions("hello").l, [2,3]);
 assertArraysEqual(letterPositions("lighthouse in the house").n, [12]);
